@@ -1,0 +1,25 @@
+.badge {
+  display: inline-block;
+  padding: 0.25rem 0.65rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.badge--casa {
+  background: var(--cor-secundaria);
+  color: var(--cor-acao);
+}
+
+.badge--trabalho {
+  background: var(--cor-fundo-desabilitado);
+  color: var(--cor-suave);
+}
+
+.badge--outro {
+  background: var(--cor-fundo);
+  color: var(--cor-marca);
+  border: 1px solid var(--cor-borda);
+}

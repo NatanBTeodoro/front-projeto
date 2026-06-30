@@ -1,0 +1,21 @@
+/* Proporção uniforme para imagens de pizzas e bebidas */
+.imagem-cardapio {
+  aspect-ratio: var(--proporcao-imagem);
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  background: rgba(253, 251, 247, 0.75);
+}
+
+.imagem-cardapio--lista {
+  width: var(--largura-imagem-lista);
+  height: auto;
+  border-radius: var(--raio-pequeno);
+  border: 1px solid var(--cor-borda);
+  flex-shrink: 0;
+}
+
+.imagem-cardapio--destaque {
+  width: 100%;
+  height: auto;
+}

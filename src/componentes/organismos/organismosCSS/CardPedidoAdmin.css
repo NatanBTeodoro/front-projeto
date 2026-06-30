@@ -1,0 +1,77 @@
+.card-pedido-admin {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1.25rem;
+  background: var(--cor-fundo);
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio);
+  box-shadow: var(--sombra-leve);
+}
+
+.card-pedido-admin__cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.card-pedido-admin__titulo-linha {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.card-pedido-admin__conta-status {
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+.card-pedido-admin__conta-status--ativo {
+  background: #d4edda;
+  color: #155724;
+}
+
+.card-pedido-admin__conta-status--deletado {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.card-pedido-admin__itens {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.card-pedido-admin__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-pedido-admin__total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-pedido-admin__historico {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.card-pedido-admin__reclamacao {
+  border-left-color: var(--cor-perigo);
+}
+
+.card-pedido-admin__status--nao_recebido {
+  color: var(--cor-perigo);
+  font-weight: 700;
+}

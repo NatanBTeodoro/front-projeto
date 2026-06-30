@@ -1,0 +1,29 @@
+.form-cadastro {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  max-width: 440px;
+  margin: 0 auto;
+  padding: 2rem 2.25rem;
+  background: var(--cor-superficie);
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio);
+  box-shadow: var(--sombra-media);
+}
+
+.form-cadastro__campos {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.form-cadastro__login {
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--cor-texto-secundario);
+}
+
+.form-cadastro .mensagem-erro {
+  display: block;
+}

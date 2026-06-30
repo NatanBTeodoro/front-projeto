@@ -1,0 +1,59 @@
+.pedido {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.pedido__abas {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.pedido__conteudo {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.pedido__cardapio {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  background: var(--cor-superficie);
+  padding: 1.25rem;
+  border-radius: var(--raio);
+  border: 1px solid var(--cor-borda);
+  box-shadow: var(--sombra-leve);
+}
+
+.pedido__resumo {
+  width: 320px;
+  flex-shrink: 0;
+  position: sticky;
+  top: 88px;
+}
+
+.pedido__aviso {
+  margin-bottom: 0.85rem;
+}
+
+.pedido__aviso .mensagem-erro {
+  display: block;
+  margin: 0;
+  color: var(--cor-tabaco);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 700px) {
+  .pedido__conteudo {
+    flex-direction: column;
+  }
+
+  .pedido__resumo {
+    width: 100%;
+    position: static;
+  }
+}

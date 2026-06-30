@@ -1,0 +1,6 @@
+.mensagem-sucesso {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--cor-acao);
+  margin-top: 0.25rem;
+}

@@ -1,0 +1,30 @@
+.link {
+  color: var(--cor-marca);
+  font-weight: 700;
+  text-decoration: none;
+  transition: color var(--transicao), opacity var(--transicao);
+}
+
+.link:hover {
+  opacity: 0.85;
+}
+
+.link--inline:hover {
+  text-decoration: underline;
+}
+
+.link--nav {
+  color: var(--cor-texto);
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.link--nav:hover {
+  color: var(--cor-marca);
+  text-decoration: none;
+}
+
+.nav-item--ativo .link--nav {
+  color: var(--cor-marca);
+  font-weight: 800;
+}

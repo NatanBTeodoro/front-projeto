@@ -1,0 +1,145 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 2.5rem;
+  width: 100%;
+}
+
+.home__hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.75rem;
+  text-align: center;
+  padding: 3rem var(--padding-pagina);
+  width: 100%;
+  background: var(--cor-superficie);
+  border-radius: var(--raio);
+  border: 1px solid var(--cor-borda);
+  box-shadow: var(--sombra-media);
+  backdrop-filter: blur(6px);
+  box-sizing: border-box;
+}
+
+.home__hero .texto--grande {
+  max-width: 520px;
+}
+
+.home__acoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+  width: 100%;
+}
+
+.home__acoes .botao--fantasma {
+  color: var(--cor-oliva);
+  border-color: var(--cor-ouro);
+}
+
+.home__acoes .botao--fantasma:hover:not(.botao--desabilitado) {
+  color: var(--cor-terracota);
+  border-color: var(--cor-terracota);
+  background: var(--cor-secundaria);
+}
+
+.home__cardapio {
+  width: 100%;
+}
+
+.home__cardapio--bebidas {
+  padding-top: 0.5rem;
+}
+
+.home__cardapio .titulo,
+.home__subtitulo {
+  color: var(--cor-creme);
+  text-shadow: 0 2px 8px rgba(43, 27, 23, 0.5);
+}
+
+.home__subsecao {
+  margin-top: 1.75rem;
+}
+
+.home__subsecao:first-of-type {
+  margin-top: 1.25rem;
+}
+
+.home__subtitulo {
+  margin: 0 0 1rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: left;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.home__separador {
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(212, 163, 89, 0.85) 20%,
+    rgba(212, 163, 89, 0.85) 80%,
+    transparent
+  );
+  margin: 0.5rem 0;
+  border-radius: 2px;
+}
+
+.home__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-top: 0;
+  width: 100%;
+}
+
+.home__grid--bebidas {
+  margin-top: 1.5rem;
+}
+
+.home__card {
+  background: var(--cor-superficie);
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio);
+  overflow: hidden;
+  box-shadow: var(--sombra-media);
+  display: flex;
+  flex-direction: column;
+  backdrop-filter: blur(6px);
+}
+
+.home__card-imagem {
+  width: 100%;
+  height: auto;
+}
+
+.home__card-info {
+  padding: 1rem 1.25rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.home__card-info .texto {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 1.4;
+}
+
+@media (max-width: 600px) {
+  .home__hero {
+    padding: 2rem 1rem;
+  }
+
+  .home__grid {
+    grid-template-columns: 1fr;
+  }
+}

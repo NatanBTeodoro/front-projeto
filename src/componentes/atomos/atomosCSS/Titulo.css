@@ -1,0 +1,14 @@
+.titulo {
+  color: var(--cor-texto);
+  font-weight: 800;
+  margin: 0;
+  line-height: 1.25;
+}
+
+.titulo--n1 { font-size: 2rem; }
+.titulo--n2 { font-size: 1.5rem; }
+.titulo--n3 { font-size: 1.15rem; }
+
+.titulo--centralizado {
+  text-align: center;
+}

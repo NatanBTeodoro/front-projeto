@@ -1,0 +1,12 @@
+.texto {
+  margin: 0 0 0.25rem 0;
+  line-height: 1.5;
+}
+
+.texto--pequeno { font-size: 0.8rem; }
+.texto--normal  { font-size: 1rem; }
+.texto--grande  { font-size: 1.15rem; }
+
+.texto--principal  { color: var(--cor-texto-principal); }
+.texto--secundario { color: var(--cor-texto-secundario); }
+.texto--claro      { color: var(--cor-texto-claro); }

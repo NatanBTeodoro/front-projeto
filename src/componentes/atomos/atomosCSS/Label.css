@@ -1,0 +1,12 @@
+.label {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--cor-texto-principal);
+  margin-bottom: 0.25rem;
+}
+
+.label__obrigatorio {
+  color: var(--cor-erro);
+  margin-left: 0.25rem;
+}

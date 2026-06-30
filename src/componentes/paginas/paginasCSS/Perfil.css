@@ -1,0 +1,50 @@
+.perfil {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  background: var(--cor-superficie);
+  padding: 2rem;
+  border-radius: var(--raio);
+  border: 1px solid var(--cor-borda);
+  box-shadow: var(--sombra-leve);
+}
+
+.perfil__secao {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.perfil__info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding: 1rem 1.15rem;
+  background: var(--cor-fundo);
+  border-radius: var(--raio-pequeno);
+  border: 1px solid var(--cor-borda);
+}
+
+.perfil__campos {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  max-width: 420px;
+}
+
+.perfil__secao--perigo {
+  margin-top: 0.5rem;
+}
+
+.perfil__excluir-confirmacao {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  max-width: 420px;
+}
+
+.perfil__excluir-acoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}

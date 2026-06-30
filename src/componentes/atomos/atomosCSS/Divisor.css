@@ -1,0 +1,8 @@
+.divisor {
+  border: none;
+  border-top: 1px solid var(--cor-borda);
+}
+
+.divisor--pequeno { margin: 0.5rem 0; }
+.divisor--normal  { margin: 1rem 0; }
+.divisor--grande  { margin: 2rem 0; }

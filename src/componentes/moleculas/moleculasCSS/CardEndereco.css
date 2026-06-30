@@ -1,0 +1,55 @@
+.card-endereco {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 1.15rem;
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio-pequeno);
+  background: var(--cor-superficie);
+  transition: border-color var(--transicao), box-shadow var(--transicao);
+}
+
+.card-endereco--principal {
+  border-color: var(--cor-marca);
+  background: var(--cor-fundo);
+}
+
+.card-endereco__info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.card-endereco__acoes {
+  display: flex;
+  gap: 0.5rem;
+  flex-shrink: 0;
+}
+
+.card-endereco__acoes .botao--secundario {
+  background: var(--cor-oliva);
+  color: var(--cor-creme);
+  border-color: var(--cor-oliva);
+}
+
+.card-endereco__acoes .botao--secundario:hover:not(.botao--desabilitado) {
+  background: #3d4534;
+  border-color: #3d4534;
+}
+
+.card-endereco__rotulo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.card-endereco__tag-principal {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--cor-marca);
+  background: var(--cor-fundo-desabilitado);
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+}

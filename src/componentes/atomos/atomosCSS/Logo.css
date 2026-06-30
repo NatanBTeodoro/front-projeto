@@ -1,0 +1,31 @@
+.logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-weight: 800;
+  color: var(--cor-marca);
+  letter-spacing: -0.5px;
+  user-select: none;
+}
+
+.logo--normal { font-size: 1.35rem; }
+.logo--grande { font-size: 2.4rem; }
+
+.logo__icone {
+  width: 1.35em;
+  height: 1.35em;
+  flex-shrink: 0;
+}
+
+.logo--grande .logo__icone {
+  width: 1.2em;
+  height: 1.2em;
+}
+
+.logo__fatia {
+  fill: var(--cor-marca);
+}
+
+.logo__bolinha {
+  fill: var(--cor-creme);
+}

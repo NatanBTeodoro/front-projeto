@@ -1,0 +1,56 @@
+.input-senha {
+  position: relative;
+  width: 100%;
+}
+
+.input-senha .input {
+  padding-right: 2.75rem;
+}
+
+/* Remove o botão nativo de revelar senha do navegador (evita ícone duplicado) */
+.input-senha .input::-ms-reveal,
+.input-senha .input::-ms-clear {
+  display: none;
+}
+
+.input-senha .input::-webkit-credentials-auto-fill-button,
+.input-senha .input::-webkit-strong-password-auto-fill-button {
+  display: none !important;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.input-senha__toggle {
+  position: absolute;
+  right: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  background: none;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  color: var(--cor-suave);
+  padding: 0;
+  transition: color var(--transicao), background var(--transicao);
+  z-index: 1;
+}
+
+.input-senha__toggle:hover {
+  color: var(--cor-marca);
+  background: var(--cor-fundo-desabilitado);
+}
+
+.input-senha__toggle:focus-visible {
+  outline: 2px solid var(--cor-acao);
+  outline-offset: 1px;
+}
+
+.icone-olho {
+  display: block;
+  flex-shrink: 0;
+}

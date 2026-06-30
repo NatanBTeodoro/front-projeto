@@ -1,0 +1,14 @@
+.aviso-claro {
+  background: rgba(253, 251, 247, 0.97);
+  border: 1px solid var(--cor-borda);
+  border-left: 4px solid var(--cor-terracota);
+  border-radius: var(--raio-pequeno);
+  padding: 0.9rem 1rem;
+  box-shadow: var(--sombra-leve);
+}
+
+.aviso-claro .texto {
+  color: var(--cor-tabaco);
+  margin: 0;
+  line-height: 1.5;
+}

@@ -1,0 +1,25 @@
+.card-pizza {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 1.15rem;
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio-pequeno);
+  background: var(--cor-superficie);
+  transition: border-color var(--transicao), box-shadow var(--transicao);
+  backdrop-filter: blur(4px);
+}
+
+.card-pizza:hover {
+  border-color: var(--cor-ouro);
+  box-shadow: var(--sombra-leve);
+}
+
+.card-pizza__info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  flex: 1;
+  min-width: 0;
+}

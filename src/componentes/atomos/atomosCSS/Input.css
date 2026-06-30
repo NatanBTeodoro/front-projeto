@@ -1,0 +1,31 @@
+.input {
+  width: 100%;
+  padding: 0.7rem 0.85rem;
+  font-size: 1rem;
+  border-radius: var(--raio-pequeno);
+  border: 1.5px solid var(--cor-borda);
+  outline: none;
+  background: var(--cor-superficie);
+  color: var(--cor-texto-principal);
+  box-sizing: border-box;
+  transition: border-color var(--transicao), box-shadow var(--transicao);
+}
+
+.input:focus {
+  border-color: var(--cor-acao);
+  box-shadow: 0 0 0 3px rgba(45, 106, 79, 0.15);
+}
+
+.input--erro {
+  border-color: var(--cor-marca);
+}
+
+.input--erro:focus {
+  border-color: var(--cor-marca);
+  box-shadow: 0 0 0 3px rgba(192, 57, 43, 0.15);
+}
+
+.input--desabilitado {
+  background: var(--cor-fundo-desabilitado);
+  cursor: not-allowed;
+}

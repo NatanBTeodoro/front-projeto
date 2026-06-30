@@ -1,0 +1,38 @@
+.admin-dashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+}
+
+.admin-dashboard__cards {
+  display: flex;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.admin-dashboard__card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1.5rem 2rem;
+  background: var(--cor-superficie);
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio);
+  min-width: 180px;
+  flex: 1;
+  box-shadow: var(--sombra-leve);
+  transition: transform var(--transicao), box-shadow var(--transicao);
+}
+
+.admin-dashboard__card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--sombra-media);
+}
+
+.admin-dashboard__numero {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--cor-marca);
+  line-height: 1;
+}

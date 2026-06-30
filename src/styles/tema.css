@@ -1,0 +1,44 @@
+/* Paleta harmônica — pizzaria artesanal */
+:root {
+  --cor-creme: #FDFBF7;
+  --cor-oliva: #4A533C;
+  --cor-terracota: #8B3A2B;
+  --cor-tabaco: #2B1B17;
+  --cor-ouro: #D4A359;
+  --cor-carvao: #434345;
+
+  --cor-marca: var(--cor-terracota);
+  --cor-acao: var(--cor-oliva);
+  --cor-texto: var(--cor-tabaco);
+  --cor-fundo: var(--cor-creme);
+  --cor-superficie: rgba(253, 251, 247, 0.94);
+  --cor-suave: #6B5E54;
+
+  --cor-primaria: var(--cor-oliva);
+  --cor-perigo: var(--cor-terracota);
+  --cor-erro: var(--cor-terracota);
+  --cor-sucesso: var(--cor-oliva);
+  --cor-secundaria: rgba(212, 163, 89, 0.22);
+  --cor-borda: rgba(212, 163, 89, 0.45);
+  --cor-destaque: var(--cor-ouro);
+  --cor-texto-principal: var(--cor-tabaco);
+  --cor-texto-secundario: var(--cor-suave);
+  --cor-texto-claro: #9A8E84;
+  --cor-fundo-desabilitado: rgba(253, 251, 247, 0.7);
+  --cor-fundo-secundario: var(--cor-carvao);
+  --cor-texto-claro-superficie: var(--cor-creme);
+
+  --overlay-fundo: rgba(43, 27, 23, 0.72);
+
+  --sombra-leve: 0 2px 12px rgba(43, 27, 23, 0.12);
+  --sombra-media: 0 6px 28px rgba(43, 27, 23, 0.18);
+  --raio: 12px;
+  --raio-pequeno: 8px;
+  --transicao: 0.2s ease;
+
+  --proporcao-imagem: 4 / 3;
+  --largura-imagem-lista: 88px;
+
+  --largura-conteudo: 1100px;
+  --padding-pagina: 1.5rem;
+}

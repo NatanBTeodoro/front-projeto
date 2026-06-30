@@ -1,0 +1,14 @@
+.nav-item {
+  list-style: none;
+  padding: 0.25rem 0;
+  position: relative;
+}
+
+.nav-item--ativo::after {
+  content: '';
+  display: block;
+  height: 3px;
+  background: var(--cor-ouro);
+  border-radius: 2px;
+  margin-top: 4px;
+}

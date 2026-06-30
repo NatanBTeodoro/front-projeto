@@ -1,0 +1,15 @@
+.template-autenticado {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+}
+
+.template-autenticado__conteudo {
+  flex: 1;
+  padding: 2rem var(--padding-pagina) 3rem;
+  width: 100%;
+  max-width: var(--largura-conteudo);
+  margin: 0 auto;
+  box-sizing: border-box;
+}

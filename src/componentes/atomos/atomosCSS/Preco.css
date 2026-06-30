@@ -1,0 +1,9 @@
+.preco {
+  font-weight: 700;
+  color: var(--cor-oliva);
+}
+
+.preco--destaque {
+  font-size: 1.15rem;
+  color: var(--cor-ouro);
+}
