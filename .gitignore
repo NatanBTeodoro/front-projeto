@@ -1,7 +1,23 @@
-target/
-!.mvn/wrapper/maven-wrapper.jar
-.idea/
-*.iml
+# Logs
+logs
 *.log
-.env
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Dependências e build
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editores e sistema
+.vscode/*
+!.vscode/extensions.json
+.idea
 .DS_Store
+*.suo
+*.sw?
+
+# Variáveis locais
+.env
